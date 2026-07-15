@@ -1,0 +1,167 @@
+{
+  "@@locale": "ar",
+  "appTitle": "وكيل أب",
+  "navAgent": "الوكيل الذكي",
+  "navHistory": "السجل",
+  "navScans": "الفحوصات",
+  "navScanLink": "رابط",
+  "navScanImage": "صورة",
+  "scanLinkScreenTitle": "فحص الرابط",
+  "scanLinkScreenSubtitle": "تحليل الروابط المشبوهة فورًا",
+  "scanSuspiciousUrlLabel": "رابط مشبوه",
+  "scanLinkAction": "فحص",
+  "scanAnalyzingLink": "جاري تحليل الرابط…",
+  "scanImageScreenTitle": "فحص الصورة",
+  "scanImageScreenSubtitle": "تحقق ما إذا كانت الصورة منشأة بالذكاء الاصطناعي",
+  "scanChooseImageOrCamera": "اختر صورة أو الكاميرا",
+  "scanNoFileChosen": "لم يُختَر ملف",
+  "scanAnalyzeAction": "تحليل",
+  "scanAnalyzingImage": "جاري تحليل الصورة…",
+  "navSettings": "الإعدادات",
+  "settingsTitle": "الإعدادات",
+  "settingsAppearance": "المظهر",
+  "settingsLanguage": "اللغة",
+  "settingsLanguageSubtitle": "التبديل بين الإنجليزية والعربية",
+  "settingsTheme": "الثيم",
+  "settingsThemeSubtitle": "وضع فاتح أو داكن أو مطابقة الجهاز",
+  "langEnglish": "الإنجليزية",
+  "langArabic": "العربية",
+  "themeSystem": "حسب النظام",
+  "themeLight": "فاتح",
+  "themeDark": "داكن",
+  "settingsFontSize": "حجم الخط",
+  "settingsFontSizeSubtitle": "تكبير أو تصغير النص في التطبيق",
+  "fontSizeCompact": "صغير",
+  "fontSizeStandard": "افتراضي",
+  "fontSizeComfortable": "مريح",
+  "settingsBackend": "الخادم",
+  "settingsBaseUrl": "عنوان الخادم",
+  "settingsBaseUrlHint": "http://10.0.2.2:5000",
+  "settingsSaveUrl": "حفظ العنوان",
+  "settingsHealthCheck": "GET /health",
+  "settingsUrlSaved": "تم حفظ عنوان الخادم.",
+  "settingsAgentMode": "وضع الوكيل",
+  "settingsAutoAgentTitle": "وكيل تلقائي (أندرويد)",
+  "settingsAutoAgentSubtitle": "يرسل بشكل دوري طلب POST /agent/auto-tick مع source=auto أثناء تشغيل التطبيق.",
+  "settingsManualOnlyTitle": "يدوي فقط (iOS)",
+  "settingsManualOnlySubtitle": "نسخ iOS لا تفعّل نبضات الوكيل التلقائي في الخلفية في هذا القالب.",
+  "settingsCopyUrl": "نسخ العنوان النهائي",
+  "settingsCopied": "تم نسخ عنوان الخادم",
+  "healthOkEmpty": "تمام (الجسم فارغ)",
+  "chatTitle": "وكيل أب · الذكاء الاصطناعي",
+  "chatClearTooltip": "مسح المحادثة",
+  "chatDismiss": "إخفاء",
+  "chatHint": "اكتب رسالة للذكاء الاصطناعي على الخادم…",
+  "historyTitle": "سجل المحادثات",
+  "historyTitleDetail": "محادثة",
+  "historyEmpty": "لا توجد محادثات محفوظة بعد.",
+  "historyMessageCount": "{count} رسالة",
+  "@historyMessageCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "historyDeleteTooltip": "حذف المحادثة",
+  "securityScansTitle": "فحوصات الأمان",
+  "scanNoteAndroidAuto": "وضع الوكيل التلقائي مفعّل على أندرويد: الخادم يستقبل أيضًا طلبات `/agent/auto-tick` دورية مع source=auto.",
+  "scanNoteManual": "كل الفحوصات من هذه الشاشة تستخدم source=manual (مطلوب على iOS).",
+  "scanManualTitle": "فحص أمان يدوي",
+  "scanLinkLabel": "رابط URL",
+  "scanLinkHint": "https://example.com/login",
+  "scanScanLink": "فحص الرابط",
+  "scanImageLabel": "اسم الصورة",
+  "scanImageHint": "suspected_generated_image.png",
+  "scanScanImage": "فحص الصورة",
+  "scanErrorUrl": "أدخل الرابط أولاً.",
+  "scanErrorImage": "أدخل اسم ملف الصورة أولاً.",
+  "scanType": "النوع: {type}",
+  "@scanType": {
+    "placeholders": {
+      "type": {}
+    }
+  },
+  "scanSource": "المصدر: {source}",
+  "@scanSource": {
+    "placeholders": {
+      "source": {}
+    }
+  },
+  "scanLabelLine": "التصنيف: {label}",
+  "@scanLabelLine": {
+    "placeholders": {
+      "label": {}
+    }
+  },
+  "scanScore": "الدرجة: {score}",
+  "@scanScore": {
+    "placeholders": {
+      "score": {}
+    }
+  },
+  "scanReason": "السبب: {reason}",
+  "@scanReason": {
+    "placeholders": {
+      "reason": {}
+    }
+  },
+  "historyTabChat": "المحادثات",
+  "historyTabScans": "سجل الفحوصات",
+  "scanHistoryEmpty": "لا يوجد شيء في السجل بعد. استخدم «رابط» أو «صورة» للفحص — تظهر النتائج هنا طالما «حفظ سجل الفحوصات» مفعّل (مفعّل افتراضياً).",
+  "scanHistoryClear": "مسح سجل الفحوصات",
+  "riskLevel": "المخاطر: {level}",
+  "@riskLevel": {
+    "placeholders": {
+      "level": {}
+    }
+  },
+  "riskSummary": "التقييم",
+  "shareReport": "مشاركة التقرير",
+  "copyReport": "نسخ التقرير",
+  "reportCopied": "تم نسخ التقرير",
+  "scanOpenLinkInBrowser": "فتح الرابط",
+  "scanCopyLinkAddress": "نسخ الرابط",
+  "scanOpenLinkDialogTitle": "فتح في المتصفح؟",
+  "scanOpenLinkDialogBody": "تم تحليل هذا الرابط داخل التطبيق فقط. فتحه في متصفح خارجي قد يبقى خطيراً (تصيّد، برمجيات خبيثة، أو احتيال). تابع فقط إذا تفهم المخاطرة.",
+  "scanOpenLinkDialogCancel": "إلغاء",
+  "scanOpenLinkDialogOpen": "فتح على أي حال",
+  "scanCouldNotOpenLink": "تعذّر فتح الرابط على هذا الجهاز.",
+  "scanUrlCopiedWithWarning": "تم نسخ الرابط. لا تفتحه إلا إذا وثقت به — قد يبقى خطيراً.",
+  "pickGallery": "المعرض",
+  "pickCamera": "الكاميرا",
+  "scanUploadImage": "فحص صورة مرفوعة",
+  "typingIndicator": "الوكيل يكتب…",
+  "regenerate": "إعادة توليد",
+  "copyMessage": "نسخ",
+  "messageCopied": "تم نسخ الرسالة",
+  "highRiskTitle": "احتمال تصيّد أو رابط خطير",
+  "highRiskBody": "تم رصد محتوى من الحافظة. افتح التطبيق للمراجعة.",
+  "loginTitle": "تسجيل الدخول",
+  "loginEmailHint": "البريد أو اسم المستخدم",
+  "loginPasswordHint": "كلمة المرور",
+  "loginSubmit": "دخول",
+  "loginGoogle": "المتابعة مع Google",
+  "loginApple": "المتابعة مع Apple",
+  "loginGuest": "متابعة بدون حساب",
+  "loginError": "فشل تسجيل الدخول",
+  "loginErrorEnterEmail": "أدخل البريد أو اسم المستخدم.",
+  "loginErrorInvalidEmail": "صيغة البريد غير صحيحة.",
+  "loginErrorAccountNotFound": "لا يوجد حساب بهذا البريد. تحقق من العنوان أو أنشئ حساباً.",
+  "loginErrorWrongPassword": "كلمة المرور غير صحيحة. حاول مرة أخرى أو أعد التعيين.",
+  "loginShowPassword": "إظهار كلمة المرور",
+  "loginHidePassword": "إخفاء كلمة المرور",
+  "logout": "خروج",
+  "settingsPrivacy": "الخصوصية",
+  "settingsSaveChatHistory": "حفظ محادثات الذكاء الاصطناعي على الجهاز",
+  "settingsSaveChatHistorySubtitle": "افتراضياً لا يُحفظ شيء. المحادثات تبقى في الذاكرة فقط إلا إذا فعّلت الخيار.",
+  "settingsSaveScanHistory": "حفظ نتائج الفحص على الجهاز",
+  "settingsSaveScanHistorySubtitle": "يخزن الروابط والصور التي فحصتها مع ملخص المخاطر. مفعّل افتراضياً؛ عطّله لإيقاف إضافة فحوصات جديدة للسجل.",
+  "settingsAboutPrivacySection": "عن التطبيق والخصوصية",
+  "settingsAboutAppShort": "«وكيل أب» يساعدك على فحص الروابط والصور المشبوهة عبر الخادم الذي تضبطه. قد تُرسل عمليات الفحص والدردشة الاختيارية إلى خادمك — راجع سياسة النشر لديك.",
+  "settingsPrivacyShort": "هذا القالب لا يعتمد سحابة مركزية منّا: البيانات تذهب لعنوان الخادم الذي تضبطه. يمكنك تفعيل أو إيقاف حفظ المحادثة/سجل الفحص على الجهاز من الأعلى.",
+  "settingsOpenPrivacyPolicy": "فتح سياسة الخصوصية الكاملة",
+  "settingsAutoAgentSubtitleAndroid": "يعمل مع فتح التطبيق فقط: تحقق دوري من الخادم، واختياريًا فحص الحافظة عند العودة للتطبيق، وتنبيه محلي عند احتمال تصيّد. لا يراقب تطبيقات أخرى في الخلفية. iOS يبقى يدوياً فقط.",
+  "scanFromClipboardTitle": "تم فحص رابط من الحافظة",
+  "scanFromClipboardDismiss": "حسناً"
+}

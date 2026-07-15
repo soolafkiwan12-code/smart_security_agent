@@ -1,0 +1,167 @@
+{
+  "@@locale": "en",
+  "appTitle": "Agent Ab",
+  "navAgent": "AI Agent",
+  "navHistory": "History",
+  "navScans": "Scans",
+  "navScanLink": "Link",
+  "navScanImage": "Image",
+  "scanLinkScreenTitle": "Scan Link",
+  "scanLinkScreenSubtitle": "Analyze suspicious URLs instantly",
+  "scanSuspiciousUrlLabel": "Suspicious URL",
+  "scanLinkAction": "Scan",
+  "scanAnalyzingLink": "Analyzing link…",
+  "scanImageScreenTitle": "Scan Image",
+  "scanImageScreenSubtitle": "Check if image looks AI-generated",
+  "scanChooseImageOrCamera": "Choose image or camera",
+  "scanNoFileChosen": "No file chosen",
+  "scanAnalyzeAction": "Analyze",
+  "scanAnalyzingImage": "Analyzing image…",
+  "navSettings": "Settings",
+  "settingsTitle": "Settings",
+  "settingsAppearance": "Appearance",
+  "settingsLanguage": "Language",
+  "settingsLanguageSubtitle": "Switch between English and Arabic",
+  "settingsTheme": "Theme",
+  "settingsThemeSubtitle": "Use light mode, dark mode, or match your device",
+  "langEnglish": "English",
+  "langArabic": "Arabic",
+  "themeSystem": "System",
+  "themeLight": "Light",
+  "themeDark": "Dark",
+  "settingsFontSize": "Text size",
+  "settingsFontSizeSubtitle": "Scale text across the app",
+  "fontSizeCompact": "Compact",
+  "fontSizeStandard": "Default",
+  "fontSizeComfortable": "Comfortable",
+  "settingsBackend": "Backend",
+  "settingsBaseUrl": "Base URL",
+  "settingsBaseUrlHint": "http://10.0.2.2:5000",
+  "settingsSaveUrl": "Save URL",
+  "settingsHealthCheck": "GET /health",
+  "settingsUrlSaved": "Backend URL saved.",
+  "settingsAgentMode": "Agent mode",
+  "settingsAutoAgentTitle": "Automatic agent (Android)",
+  "settingsAutoAgentSubtitle": "Sends periodic POST /agent/auto-tick with source=auto while the app runs.",
+  "settingsManualOnlyTitle": "Manual only (iOS)",
+  "settingsManualOnlySubtitle": "iOS builds do not enable automatic background agent ticks in this template.",
+  "settingsCopyUrl": "Copy resolved URL",
+  "settingsCopied": "Copied base URL",
+  "healthOkEmpty": "OK (empty body)",
+  "chatTitle": "Agent Ab · AI",
+  "chatClearTooltip": "Clear chat",
+  "chatDismiss": "Dismiss",
+  "chatHint": "Message the backend AI…",
+  "historyTitle": "Chat history",
+  "historyTitleDetail": "Conversation",
+  "historyEmpty": "No saved conversations yet.",
+  "historyMessageCount": "{count} messages",
+  "@historyMessageCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "historyDeleteTooltip": "Delete conversation",
+  "securityScansTitle": "Security scans",
+  "scanNoteAndroidAuto": "Android automatic agent is on: the backend also receives periodic `/agent/auto-tick` with source=auto.",
+  "scanNoteManual": "All scans from this screen use source=manual (required on iOS).",
+  "scanManualTitle": "Manual security scan",
+  "scanLinkLabel": "Link URL",
+  "scanLinkHint": "https://example.com/login",
+  "scanScanLink": "Scan link",
+  "scanImageLabel": "Image name",
+  "scanImageHint": "suspected_generated_image.png",
+  "scanScanImage": "Scan image",
+  "scanErrorUrl": "Enter a URL first.",
+  "scanErrorImage": "Enter an image file name first.",
+  "scanType": "Type: {type}",
+  "@scanType": {
+    "placeholders": {
+      "type": {}
+    }
+  },
+  "scanSource": "Source: {source}",
+  "@scanSource": {
+    "placeholders": {
+      "source": {}
+    }
+  },
+  "scanLabelLine": "Label: {label}",
+  "@scanLabelLine": {
+    "placeholders": {
+      "label": {}
+    }
+  },
+  "scanScore": "Score: {score}",
+  "@scanScore": {
+    "placeholders": {
+      "score": {}
+    }
+  },
+  "scanReason": "Reason: {reason}",
+  "@scanReason": {
+    "placeholders": {
+      "reason": {}
+    }
+  },
+  "historyTabChat": "Chats",
+  "historyTabScans": "Scan log",
+  "scanHistoryEmpty": "No scans in your log yet. Use Link or Image to run a scan — results appear here while “Save scan history” is on (it’s on by default).",
+  "scanHistoryClear": "Clear scan log",
+  "riskLevel": "Risk: {level}",
+  "@riskLevel": {
+    "placeholders": {
+      "level": {}
+    }
+  },
+  "riskSummary": "Assessment",
+  "shareReport": "Share report",
+  "copyReport": "Copy report",
+  "reportCopied": "Report copied",
+  "scanOpenLinkInBrowser": "Open link",
+  "scanCopyLinkAddress": "Copy link",
+  "scanOpenLinkDialogTitle": "Open in browser?",
+  "scanOpenLinkDialogBody": "This link was flagged or analyzed in the app only. Opening it in an external browser can still be risky (phishing, malware, or scams). Continue only if you understand the risk.",
+  "scanOpenLinkDialogCancel": "Cancel",
+  "scanOpenLinkDialogOpen": "Open anyway",
+  "scanCouldNotOpenLink": "Could not open this link on the device.",
+  "scanUrlCopiedWithWarning": "Link copied. Do not open it unless you trust it — it may still be dangerous.",
+  "pickGallery": "Gallery",
+  "pickCamera": "Camera",
+  "scanUploadImage": "Scan uploaded image",
+  "typingIndicator": "Assistant is typing…",
+  "regenerate": "Regenerate",
+  "copyMessage": "Copy",
+  "messageCopied": "Message copied",
+  "highRiskTitle": "Possible phishing or risky link",
+  "highRiskBody": "We flagged content from your clipboard. Open the app to review.",
+  "loginTitle": "Sign in",
+  "loginEmailHint": "Email or username",
+  "loginPasswordHint": "Password",
+  "loginSubmit": "Sign in",
+  "loginGoogle": "Continue with Google",
+  "loginApple": "Continue with Apple",
+  "loginGuest": "Continue without account",
+  "loginError": "Sign-in failed",
+  "loginErrorEnterEmail": "Enter your email or username.",
+  "loginErrorInvalidEmail": "That doesn’t look like a valid email address.",
+  "loginErrorAccountNotFound": "No account found for this email. Check the address or sign up.",
+  "loginErrorWrongPassword": "Wrong password. Try again or reset your password.",
+  "loginShowPassword": "Show password",
+  "loginHidePassword": "Hide password",
+  "logout": "Sign out",
+  "settingsPrivacy": "Privacy",
+  "settingsSaveChatHistory": "Save AI chat history on device",
+  "settingsSaveChatHistorySubtitle": "Off by default. Chats stay in memory only unless you enable this.",
+  "settingsSaveScanHistory": "Save scan results on device",
+  "settingsSaveScanHistorySubtitle": "Stores links and images you scanned with risk summaries. On by default; turn off to stop adding new scans to the log.",
+  "settingsAboutPrivacySection": "About & privacy",
+  "settingsAboutAppShort": "Agent Ab helps you check suspicious links and images using your configured backend. Scans and optional chat may be sent to your server — see your deployment’s policy.",
+  "settingsPrivacyShort": "We don’t operate a central cloud for this template: data goes to the backend URL you set. Enable or disable saving chat/scan history on this device in the switches above.",
+  "settingsOpenPrivacyPolicy": "Open full privacy policy",
+  "settingsAutoAgentSubtitleAndroid": "Foreground only while the app is open: periodic check-in with the server, optional clipboard scan when you return to the app, and a local alert if something looks like phishing. Does not monitor other apps in the background. iOS stays manual only.",
+  "scanFromClipboardTitle": "Clipboard link scanned",
+  "scanFromClipboardDismiss": "OK"
+}
